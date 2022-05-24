@@ -1,0 +1,110 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5303076800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Validate Log In Page",
+        "description": "",
+        "id": "login-feature;validate-log-in-page",
+        "after": [
+          {
+            "result": {
+              "duration": 709345500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 123645500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on the home page",
+            "match": {
+              "location": "HomeSteps.i_am_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 784692200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the Log in",
+            "match": {
+              "location": "HomeSteps.i_click_on_the_Log_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45564600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should see \"Welcome, Please Sign In!\" text on login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Welcome, Please Sign In!",
+                  "offset": 14
+                }
+              ],
+              "location": "LoginSteps.i_should_see_text_on_login_page(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2846800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the url should contain with \"/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/login",
+                  "offset": 29
+                }
+              ],
+              "location": "LoginSteps.the_url_should_contain_with(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "LogIn feature",
+    "description": "As a Customer\r\nI Want to Log in\r\nSo that I can see my e-mails",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "LogIn.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Login"
+      }
+    ]
+  }
+]
