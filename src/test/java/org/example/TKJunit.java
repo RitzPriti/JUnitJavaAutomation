@@ -7,7 +7,8 @@ import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class TKJunit {
+public class TKJunit
+{
     WebDriver driver;
     @Before
     public void setup(){
